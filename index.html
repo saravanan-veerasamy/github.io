@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Rajesh Kumar - Faculty Profile</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #004d40;
+            padding: 20px 30px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-photo img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid #004d40;
+            object-fit: cover;
+        }
+
+        .profile-details h1 {
+            color: #004d40;
+            margin-bottom: 10px;
+        }
+
+        .profile-details p {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .section {
+            margin-top: 40px;
+        }
+
+        .section h2 {
+            color: #004d40;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #004d40;
+            padding-bottom: 5px;
+        }
+
+        .section ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #004d40;
+            color: white;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .profile {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div><strong>Faculty Profile - Indian Institute of Technology</strong></div>
+        <nav>
+            <a href="#publications">Publications</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#programmes">Programmes</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <div class="profile">
+            <div class="profile-photo">
+                <img src="https://via.placeholder.com/200" alt="Dr. Rajesh Kumar">
+            </div>
+            <div class="profile-details">
+                <h1>Dr. Rajesh Kumar</h1>
+                <p><strong>Position:</strong> Associate Professor</p>
+                <p><strong>Department:</strong> Computer Science & Engineering</p>
+                <p><strong>Email:</strong> rajesh.kumar@iitexample.ac.in</p>
+                <p><strong>Phone:</strong> +91 98765 43210</p>
+                <p><strong>Research Interests:</strong> Artificial Intelligence, Machine Learning, Data Analytics, IoT</p>
+                <p><strong>Office:</strong> Room 501, Academic Block, IIT Example</p>
+            </div>
+        </div>
+
+        <div class="section" id="publications">
+            <h2>Publications</h2>
+            <ul>
+                <li>R. Kumar, "AI Applications in Smart Cities", Indian Journal of Computer Science, 2023.</li>
+                <li>R. Kumar, "Data Analytics in Agriculture", International Journal of Data Science, 2022.</li>
+                <li>R. Kumar, "Machine Learning Techniques for IoT Security", IJET, 2021.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Best Research Paper Award - National Conference on AI, 2023</li>
+                <li>Funded Research Project on Smart Agriculture by DST, India, 2022</li>
+                <li>Invited Speaker at International Conference on IoT, 2021</li>
+            </ul>
+        </div>
+
+        <div class="section" id="programmes">
+            <h2>Programmes Organised/Attended</h2>
+            <ul>
+                <li>Organised National Workshop on AI and Machine Learning – 2023</li>
+                <li>Attended International Conference on Data Science – 2022</li>
+                <li>Organised Faculty Development Programme on IoT Applications – 2021</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+        © 2025 Indian Institute of Technology. All Rights Reserved.
+    </footer>
+
+</body>
+
+</html>
